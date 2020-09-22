@@ -59,7 +59,11 @@ function Pagination({ reposPerPage, totalRepos, paginate, currentPage }) {
           </li>
         )}
         {pagesToRender?.map((number, index) => (
-          <li className="page-item active" key={index}>
+          <li
+            className="page-item active"
+            key={index}
+            data-test="pagination-button"
+          >
             <a
               onClick={() => paginate(number)}
               className="page-link no-border"
