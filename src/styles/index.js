@@ -5,31 +5,34 @@ export const Container = styled.div`
     background: #dcdcdc;
     margin-top: 20px;
   }
+
   .widget-26 {
     color: #3c4142;
     font-weight: 400;
   }
-  .widget-26 tr:first-child td {
-    border: 0;
-  }
+
   .widget-26 .widget-26-repo-emp-img img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
   }
+
   .widget-26 .widget-26-repo-title {
     min-width: 200px;
   }
+
   .widget-26 .widget-26-repo-title a {
     font-weight: 400;
     font-size: 0.875rem;
     color: #3c4142;
     line-height: 1.5;
   }
+
   .widget-26 .widget-26-repo-title a:hover {
     color: #68cbd7;
     text-decoration: none;
   }
+
   .widget-26 .widget-26-repo-title .repo-name {
     margin: 0;
     line-height: 1.5;
@@ -38,38 +41,46 @@ export const Container = styled.div`
     font-size: 0.8125rem;
     color: #3c4142;
   }
+
   .widget-26 .widget-26-repo-title .repo-name:hover {
     color: #68cbd7;
     text-decoration: none;
   }
+
   .widget-26 .widget-26-repo-title .time {
     font-size: 12px;
     font-weight: 400;
   }
+
   .widget-26 .widget-26-repo-info {
     min-width: 100px;
     font-weight: 400;
   }
+
   .widget-26 .widget-26-repo-info p {
     line-height: 1.5;
     color: #3c4142;
     font-size: 0.8125rem;
   }
+
   .widget-26 .widget-26-repo-info .location {
     color: #3c4142;
   }
+
   .widget-26 .widget-26-repo-issues {
     min-width: 70px;
     font-weight: 400;
     color: #3c4142;
     font-size: 0.8125rem;
   }
+
   .widget-26 .widget-26-repo-category {
     padding: 0.5rem;
     display: inline-flex;
     white-space: nowrap;
     border-radius: 15px;
   }
+
   .widget-26 .widget-26-repo-category .indicator {
     width: 13px;
     height: 13px;
@@ -77,16 +88,19 @@ export const Container = styled.div`
     float: left;
     border-radius: 50%;
   }
+
   .widget-26 .widget-26-repo-category span {
     font-size: 0.8125rem;
     color: #3c4142;
     font-weight: 600;
   }
+
   .widget-26 .widget-26-repo-starred svg {
     width: 20px;
     height: 20px;
     color: #fd8b2c;
   }
+
   .widget-26 .widget-26-repo-starred svg.starred {
     fill: #fd8b2c;
   }
@@ -105,11 +119,13 @@ export const Container = styled.div`
   .bg-soft-info {
     background-color: #d7efff;
   }
+
   .search-form {
     width: 80%;
     margin: 0 auto;
     margin-top: 1rem;
   }
+
   .search-form input {
     height: 100%;
     background: transparent;
@@ -120,6 +136,7 @@ export const Container = styled.div`
     height: 100%;
     font-size: 1rem;
   }
+
   .search-form select {
     background: transparent;
     border: 0;
@@ -127,47 +144,59 @@ export const Container = styled.div`
     height: 100%;
     font-size: 1rem;
   }
+
   .search-form select:focus {
     border: 0;
   }
+
   .search-form button {
     height: 100%;
     width: 100%;
     font-size: 1rem;
   }
+
   .search-form button svg {
     width: 24px;
     height: 24px;
   }
+
   .search-body {
     margin-bottom: 1.5rem;
   }
+
   .search-body .search-filters .filter-list {
     margin-bottom: 1.3rem;
   }
+
   .search-body .search-filters .filter-list .title {
     color: #3c4142;
     margin-bottom: 1rem;
   }
+
   .search-body .search-filters .filter-list .filter-text {
     color: #727686;
   }
+
   .search-body .search-result .result-header {
     margin-bottom: 2rem;
   }
+
   .search-body .search-result .result-header .records {
     color: #3c4142;
   }
+
   .search-body .search-result .result-header .result-actions {
     text-align: right;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .search-body .search-result .result-header .result-actions .result-sorting {
     display: flex;
     align-items: center;
   }
+
   .search-body
     .search-result
     .result-header
@@ -177,6 +206,7 @@ export const Container = styled.div`
     flex-shrink: 0;
     font-size: 0.8125rem;
   }
+
   .search-body
     .search-result
     .result-header
@@ -185,6 +215,7 @@ export const Container = styled.div`
     select {
     color: #68cbd7;
   }
+
   .search-body
     .search-result
     .result-header
@@ -194,6 +225,7 @@ export const Container = styled.div`
     option {
     color: #3c4142;
   }
+
   @media (min-width: 768px) and (max-width: 991.98px) {
     .search-body .search-filters {
       display: flex;
@@ -202,15 +234,18 @@ export const Container = styled.div`
       margin-right: 1rem;
     }
   }
+
   .card-margin {
     margin-bottom: 1.875rem;
   }
+
   @media (min-width: 992px) {
     .col-lg-2 {
       flex: 0 0 16.66667%;
       max-width: 16.66667%;
     }
   }
+
   .card-margin {
     margin-bottom: 1.875rem;
   }
