@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import Pagination from "./pagination/Pagination";
+import Table from "./table/Table";
+import Search from "./search/Search";
+
+import { Container } from "./styles/";
+
+const App = ({ onSubmit }) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Search />
+      <div className="row  mx-auto">
+        <div className="col-12">
+          <div className="card card-margin">
+            <div className="card-body">
+              <div className="row search-body">
+                <div className="col-lg-12">
+                  <div className="search-result">
+                    <div className="result-header">
+                      <div className="row">
+                        <div className="col-lg-6">
+                          <div className="records">
+                            Showing: <b>1-20</b> of <b>200</b> result
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <Table />
+                  </div>
+                </div>
+              </div>
+              <Pagination />
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
   );
-}
+};
 
 export default App;
