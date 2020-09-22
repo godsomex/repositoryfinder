@@ -10,9 +10,3 @@ describe("<Search />", () => {
     expect(wrapper).toMatchSnapshot();
   });
 });
-
-describe("<Search/>", () => {
-  it("renders without crashing", () => {
-    shallow(<Search />);
-  });
-});

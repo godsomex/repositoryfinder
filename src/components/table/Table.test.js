@@ -3,13 +3,9 @@ import { shallow } from "enzyme";
 import Table from "./Table";
 
 describe("<Table />", () => {
+  const wrapper = shallow(<Table />);
   it("renders without crashing", () => {
-    shallow(<Table />);
-  });
-});
-
-describe("<Table/>", () => {
-  it("renders without crashing", () => {
-    shallow(<Table />);
+    expect(wrapper.length).toBe(1);
+    expect(wrapper).toMatchSnapshot();
   });
 });
